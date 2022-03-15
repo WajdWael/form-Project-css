@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <!-- ==== CSS FILE ==== -->
+    <link rel="stylesheet" href="./form.css">
+
+    <!-- ==== BOX ICON ==== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="form">
+    <!-- == CIRCLE SHAPES == -->
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+
+    <!-- == FORM  == -->
+    <div class="theform">
+        <img src="./work.svg" alt="work svg img" class="theform__img">
+
+        <form action="" class="theform__content">
+            <h1 class="theform__title">Welcome!</h1>
+
+            <div class="theform__div one">
+                <div class="theform__icon">
+                    <i class='bx bx-user-circle'></i>
+                </div>
+
+                <div class="theform__div-input">
+                    <label for="" class="theform__label">Username</label>
+                    <input type="text" class="theform__input" />
+                </div>
+            </div>
+
+            <div class="theform__div">
+                <div class="theform__icon">
+                    <i class='bx bx-lock' ></i>
+                </div>
+
+                <div class="theform__div-input">
+                    <label for="" class="theform__label">Password</label>
+                    <input type="password" class="theform__input" />
+                </div>
+            </div>
+            <a href="" class="theform__forgot">Forgot Password?</a>
+
+            <input type="submit" class="theform__button" value="Log In"/>
+
+            <div class="theform__social">
+                <span class="theform__social-text">our login with</span>
+
+                <a href="#" class="theform__social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="theform__social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="theform__social-icon"><i class='bx bxl-pinterest-alt'></i></a>
+
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
